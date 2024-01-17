@@ -1,0 +1,10 @@
+Scaffold-DbContext "Host=;Port=5432;Database=auto_aid_ltd;Username=sa;Password=;" Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir ../AutoAid.Domain/Models -DataAnnotations
+
+
+-Force : Overwrite existing files.
+
+-Schemas : The schemas of tables to generate entity types for. If not specified, all schemas are included.
+
+-ContextDir : The directory to put DbContext file in. Paths are relative to the project directory.
+
+-Project : The project to use.
