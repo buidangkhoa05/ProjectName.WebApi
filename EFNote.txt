@@ -1,0 +1,1 @@
+ Scaffold-DbContext "Host=;Port=5432;Database=;Username=;Password=;" Npgsql.EntityFrameworkCore.PostgreSQL -OutputDir ../AutoAid.Domain/Model -ContextDir ../AutoAid.Infrastructure/DbContexts -Force -DataAnnotations
