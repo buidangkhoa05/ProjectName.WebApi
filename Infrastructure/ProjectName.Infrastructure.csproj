@@ -8,10 +8,10 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Application\ProjectName.Application.csproj" />
-		<ProjectReference Include="..\AutoAid.Application\AutoAid.Application.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EPPlus" Version="7.0.6" />
 		<PackageReference Include="LinqKit" Version="1.2.5" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
